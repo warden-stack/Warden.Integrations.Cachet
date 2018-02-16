@@ -7,7 +7,7 @@ using Warden.Watchers;
 using Machine.Specifications;
 using It = Machine.Specifications.It;
 
-namespace Warden.Tests.Integrations.Cachet
+namespace Warden.Integrations.Cachet.Tests
 {
     public class CachetIntegration_specs
     {
