@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Warden Cachet Integration.</Description>
+    <VersionPrefix>2.0.0</VersionPrefix>
+    <Authors>Piotr Gankiewicz</Authors>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <AssemblyName>Warden.Integrations.Cachet</AssemblyName>
+    <Title>Warden.Integrations.Cachet</Title>
+    <PackageId>Warden.Integrations.Cachet</PackageId>
+    <PackageTags>Warden Warden.Integrations.Cachet</PackageTags>
+    <PackageProjectUrl>https://getwarden.net</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/warden-stack/Warden.Integrations.Cachet/blob/master/LICENSE</PackageLicenseUrl>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="Warden" Version="2.0.0" />
+  </ItemGroup>
+</Project>
